@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   
+    padding-top: 50px;/
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+ 
+}
+
+
+header .container {
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    
+     margin-top: 20px;  
+}
+
+
+#hero {
+    background: url('photo-1533174072545-7a4b6ad7a6c3.avif') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: ceter;
+}
+
+#hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+#hero input[type="text"] {
+    padding: 0.5rem;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#hero button {
+    padding: 0.5rem 1rem;
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background: #333;
+}
+
+
+#events {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#events .event-card {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#events .event-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+#events .event-card button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#events .event-card button:hover {
+    background: #e8491d;
+}
+.events .event-card .event-photo {
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 32%;
+    width: 100%;
+    bottom: 0;
+}
